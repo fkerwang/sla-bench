@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=62.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sla-bench"
+version = "0.8.0"
+description = "Audited v7 LLM SLA benchmark client, 2-level SLA gap<10% adaptive sweep/refinement engine, and inline-SVG HTML auto-plotter."
+requires-python = ">=3.9"
+dependencies = [
+    "locust>=2.30.0",
+    "sseclient-py>=1.8.0",
+    "requests>=2.31.0",
+    "numpy>=1.24.0",
+    "PyYAML>=6.0",
+    "tqdm>=4.65.0",
+]
+
+[project.scripts]
+sla-bench = "sla_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sla_bench*"]

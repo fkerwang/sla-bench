@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+results/*
+!results/h20_fp8/
+!results/h20_fp8/**
+_cache/
+data/_bal_*.ndjson
+dataset/_bal_*.ndjson
+**/_bal_*.ndjson
+*.log
+*.out
+
+# Local watchdog/monitor scratch files (never part of the tool)
+watchdog.pid
+email-watch.pid
+watchdog-tasks.txt
+*.swp

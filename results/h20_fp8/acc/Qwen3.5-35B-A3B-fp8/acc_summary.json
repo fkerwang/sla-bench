@@ -1,0 +1,16 @@
+{
+ "model": "Qwen3.5-35B-A3B-fp8",
+ "card": "H20",
+ "rate": 3.6,
+ "prompts_planned": 428,
+ "prompts_scored": 300,
+ "records": 428,
+ "records_judged": 300,
+ "warmup_s": 60.0,
+ "ds_in": 3755.05,
+ "in_len_mean": 3781.55,
+ "elapsed_s": 151.46169447898865,
+ "mode": "open_loop_poisson_at_sla1_ceiling",
+ "seed": 0,
+ "acc": 58.328229206943185
+}
